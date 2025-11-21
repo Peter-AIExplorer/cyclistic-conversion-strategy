@@ -1,4 +1,5 @@
 # Cyclistic Conversion Strategy: Targeting the Weekend Value Gap
+
 Cyclistic Ride Share: Google Data Analytics Professional Certificate Capstone Project
 
 This project details the end-to-end data analysis process for Cyclistic, a fictional bike-share company, focusing on converting high-value casual riders into annual members. The analysis identifies a specific, actionable financial pain point within the casual segment to optimize marketing spend for a high Return on Investment (ROI) campaign.
@@ -17,15 +18,15 @@ The analysis of 12 months of trip data isolated three core findings, moving beyo
 
 The entire project workflow is detailed and traceable within this repository:
 
--   **Data Source:** The source is clearly cited as being provided by [**Lyft Bikes and Scooters, LLC (“Bikeshare”) and the City of Chicago’s (“City”) Divvy bicycle sharing service**](https://divvybikes.com/data-license-agreement)**.**  The data was sourced from multiple monthly ZIP files stored on [**Amazon Cloud**](https://divvy-tripdata.s3.amazonaws.com/index.html) covering `Nov 2024 to Oct 2025`.
-    
--   **Database & Cleaning:** Google BigQuery (SQL) for data cleaning, aggregation, and feature engineering.
-    
--   **Visualization & Presentation:** Tableau Public for the interactive dashboard and strategic visualizations.
-    
+- **Data Source:** The source is clearly cited as being provided by [Lyft Bikes and Scooters, LLC (“Bikeshare”) and the City of Chicago’s (“City”) Divvy bicycle sharing service](https://divvybikes.com/data-license-agreement).
 
+- The data was sourced from multiple monthly ZIP files stored on [Amazon Cloud](https://divvy-tripdata.s3.amazonaws.com/index.html) covering `Nov 2024 to Oct 2025`.
+
+- **Database & Cleaning:** Google BigQuery (SQL) for data cleaning, aggregation, and feature engineering.
+
+- **Visualization & Presentation:** Tableau Public for the interactive dashboard and strategic visualizations.
+  
 ### Repository Content
-
 
 | Folder / File | Description |
 | :--- | :--- |
@@ -37,6 +38,6 @@ The entire project workflow is detailed and traceable within this repository:
 
 Explore the findings and supporting visuals directly.
 
-[**VIEW THE LIVE TABLEAU DASHBOARD**](https://www.google.com/search?q=https://your-github-username.github.io/your-repo-name/ "null")
+[VIEW THE LIVE TABLEAU DASHBOARD](https://peter-aiexplorer.github.io/cyclistic-conversion-strategy/ "null")
 
 _**Note:**_ _For the full narrative, detailed methodology, and executive summary, please see the associated [Medium Post Link](https://medium.com/@obepeter92/cyclistic-ride-share-google-data-analytics-professional-certificate-capstone-project-de2bec8e8ccd)._
