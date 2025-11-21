@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyclistic Conversion Strategy Dashboard</title>
+    <link rel="icon" type="image/png" href="cyclist_16257127.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: #eef5f3;
+        color: #1e2a2f;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background: #dff2ee;
+        border-bottom: 2px solid #c6e6df;
+      }
+      header h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin: 0;
+        color: #1a3c47;
+      }
+      header a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #1a3c47;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      header img {
+        width: 22px;
+        height: 22px;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: #ffffff;
+        border-radius: 14px;
+        padding: 30px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e0ece9;
+      }
+
+      .card h2 {
+        margin-top: 0;
+        font-size: 1rem;
+        font-weight: 550;
+        color: #1a3c47;
+      }
+
+      .subtext {
+        font-size: 0.9rem;
+        margin-top: 5px;
+        color: #38535a;
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 0.85rem;
+        color: #38535a;
+        text-align: center;
+      }
+
+      footer a {
+        color: #38535a;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cyclistic Conversion Strategy Dashboard</h1>
+      <a href="https://github.com/your-repo-link" target="_blank">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt="GitHub Logo"
+        />
+        View SQL/Code on GitHub
+      </a>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <h2>
+          This interactive dashboard, published to Tableau Public, presents the
+          three core findings: WHO is the high-value target (Casual Classic),
+          WHY they will convert (Weekend Fee Pain), and WHEN to deploy the
+          campaign (Saturday peak hours)
+        </h2>
+        <p class="subtext">
+          Interact with the embedded Tableau visualization below. Resize the
+          browser to see responsive behavior.
+        </p>
+
+        <!-- Tableau Embed Script -->
+        <div
+          class="tableauPlaceholder"
+          id="viz1763728559534"
+          style="position: relative"
+        >
+          <noscript
+            ><a href="#"
+              ><img
+                alt="Cyclistic Dashboard "
+                src="https://public.tableau.com/static/images/Cy/Cyclistic_17636275450790/CyclisticDashboard/1_rss.png"
+                style="border: none" /></a
+          ></noscript>
+          <object class="tableauViz" style="display: none">
+            <param
+              name="host_url"
+              value="https%3A%2F%2Fpublic.tableau.com%2F"
+            />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param
+              name="name"
+              value="Cyclistic_17636275450790/CyclisticDashboard"
+            />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param
+              name="static_image"
+              value="https://public.tableau.com/static/images/Cy/Cyclistic_17636275450790/CyclisticDashboard/1.png"
+            />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+            <param name="language" value="en-US" />
+          </object>
+        </div>
+
+        <script type="text/javascript">
+          var divElement = document.getElementById("viz1763728559534");
+          var vizElement = divElement.getElementsByTagName("object")[0];
+          vizElement.style.width = "1300px";
+          vizElement.style.height = "827px";
+          var scriptElement = document.createElement("script");
+          scriptElement.src =
+            "https://public.tableau.com/javascripts/api/viz_v1.js";
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+        <footer>
+          <a
+            href="https://medium.com/@obepeter92/cyclistic-ride-share-google-data-analytics-professional-certificate-capstone-project-de2bec8e8ccd"
+            target="_blank"
+            >This interactive visualization is part of the Cyclistic Data
+            Analytics Case Study by <strong>Peter O. Obe</strong></a
+          >
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
